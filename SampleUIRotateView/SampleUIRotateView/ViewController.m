@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <UIRotateView.h>
 
 @interface ViewController ()
 
@@ -19,5 +20,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)valueChanged:(id)sender {
+    ((UIRotateView *)self.view.subviews.firstObject).value = ((UISlider *)sender).value;
+    ((UIRotateView *)self.view.subviews.lastObject).value = ((UISlider *)sender).value;
+}
 
 @end
