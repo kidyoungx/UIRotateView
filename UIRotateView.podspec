@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "UIRotateView"
   s.version      = "1.0.1"
-  s.summary      = "he UIView Rotate from value 0.0 to 1.0. General case is use with UICircleSlider as an indicator."
+  s.summary      = "The UIView Rotate from value 0.0 to 1.0."
 
   s.description  = <<-DESC
-                    he UIView Rotate from value 0.0 to 1.0. General case is use with UICircleSlider as an indicator.
+                    The UIView Rotate from value 0.0 to 1.0. General case is use with UICircleSlider as an indicator.
                    DESC
 
   s.homepage     = "https://github.com/kidyoungx/UIRotateView"
