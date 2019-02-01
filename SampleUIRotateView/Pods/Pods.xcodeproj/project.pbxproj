@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B128F8679759CDFD12548061451045 /* UIRotateView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C43C3271697CDDDBE079FFE2809B0 /* UIRotateView-dummy.m */; };
+		B64F8B5A71F0B72839DB0EA9B82DC64C /* UIRotateView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B067755111C49BB1CE27A4DD2E83983 /* UIRotateView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1CA5F424294248A2C2FEE0E3425EBC7 /* Pods-SampleUIRotateView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F3F29317ADE51CCD9E4086996D5722 /* Pods-SampleUIRotateView-dummy.m */; };
+		E6E64526E41D6B5A1C5B3E13605BCFF4 /* UIRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 453BF6FE8200625FFCE0628EE6099942 /* UIRotateView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8E60C7584C57A37C6BF41CA6809836B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F74359051093864D9DAFE59CC305AB4;
+			remoteInfo = UIRotateView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		153826A42C05E37F3F71811F0BD40E03 /* Pods-SampleUIRotateView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleUIRotateView.debug.xcconfig"; sourceTree = "<group>"; };
+		28B6752102378967F47787689BE218E8 /* Pods-SampleUIRotateView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleUIRotateView-resources.sh"; sourceTree = "<group>"; };
+		453BF6FE8200625FFCE0628EE6099942 /* UIRotateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIRotateView.m; path = UIRotateView/UIRotateView.m; sourceTree = "<group>"; };
+		62AE5ED1B012933F1D24A6095C294B58 /* libPods-SampleUIRotateView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleUIRotateView.a"; path = "libPods-SampleUIRotateView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5C43C3271697CDDDBE079FFE2809B0 /* UIRotateView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIRotateView-dummy.m"; sourceTree = "<group>"; };
+		8B067755111C49BB1CE27A4DD2E83983 /* UIRotateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIRotateView.h; path = UIRotateView/UIRotateView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25DF1E95255DA6FC072DA5200EB5F0C /* Pods-SampleUIRotateView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleUIRotateView-frameworks.sh"; sourceTree = "<group>"; };
+		A514A25DF051C1C5EBD6AF5D6D6C7268 /* libUIRotateView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUIRotateView.a; path = libUIRotateView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B449BE33B5BC2047D2D9DD4912763782 /* UIRotateView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIRotateView.xcconfig; sourceTree = "<group>"; };
+		C7EA4A9B251AF99AD12492B5CEB3A249 /* Pods-SampleUIRotateView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleUIRotateView-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7F3F29317ADE51CCD9E4086996D5722 /* Pods-SampleUIRotateView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleUIRotateView-dummy.m"; sourceTree = "<group>"; };
+		E2F993BBB3F8DE449D3418B66CAF1185 /* UIRotateView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIRotateView-prefix.pch"; sourceTree = "<group>"; };
+		F5ACF37299077EE2F57AA8A6875EB0E3 /* Pods-SampleUIRotateView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleUIRotateView.release.xcconfig"; sourceTree = "<group>"; };
+		F7E15681B8FED1BD32EA2F7241830C32 /* Pods-SampleUIRotateView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleUIRotateView-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62C0F24F6A8418ED1BCCFF0256FF0AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE4667A1A24B4806358B249C73BE59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FDA5018D9DD59CBF8B16AA8759F0100 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B449BE33B5BC2047D2D9DD4912763782 /* UIRotateView.xcconfig */,
+				6F5C43C3271697CDDDBE079FFE2809B0 /* UIRotateView-dummy.m */,
+				E2F993BBB3F8DE449D3418B66CAF1185 /* UIRotateView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIRotateView";
+			sourceTree = "<group>";
+		};
+		4C8340627A492F2B6C9639DB7EF42C65 /* Pods-SampleUIRotateView */ = {
+			isa = PBXGroup;
+			children = (
+				F7E15681B8FED1BD32EA2F7241830C32 /* Pods-SampleUIRotateView-acknowledgements.markdown */,
+				C7EA4A9B251AF99AD12492B5CEB3A249 /* Pods-SampleUIRotateView-acknowledgements.plist */,
+				D7F3F29317ADE51CCD9E4086996D5722 /* Pods-SampleUIRotateView-dummy.m */,
+				A25DF1E95255DA6FC072DA5200EB5F0C /* Pods-SampleUIRotateView-frameworks.sh */,
+				28B6752102378967F47787689BE218E8 /* Pods-SampleUIRotateView-resources.sh */,
+				153826A42C05E37F3F71811F0BD40E03 /* Pods-SampleUIRotateView.debug.xcconfig */,
+				F5ACF37299077EE2F57AA8A6875EB0E3 /* Pods-SampleUIRotateView.release.xcconfig */,
+			);
+			name = "Pods-SampleUIRotateView";
+			path = "Target Support Files/Pods-SampleUIRotateView";
+			sourceTree = "<group>";
+		};
+		5D121F120A4EC081D894CE491161DC04 /* UIRotateView */ = {
+			isa = PBXGroup;
+			children = (
+				8B067755111C49BB1CE27A4DD2E83983 /* UIRotateView.h */,
+				453BF6FE8200625FFCE0628EE6099942 /* UIRotateView.m */,
+				2FDA5018D9DD59CBF8B16AA8759F0100 /* Support Files */,
+			);
+			name = UIRotateView;
+			path = UIRotateView;
+			sourceTree = "<group>";
+		};
+		66B21F53A6E18B4175A56E2804B24962 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C8340627A492F2B6C9639DB7EF42C65 /* Pods-SampleUIRotateView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				82FE2AD43F6681AE6499F84446B836C7 /* Pods */,
+				BAD5A94BC56827AEBFD6D54A9D659257 /* Products */,
+				66B21F53A6E18B4175A56E2804B24962 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82FE2AD43F6681AE6499F84446B836C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D121F120A4EC081D894CE491161DC04 /* UIRotateView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAD5A94BC56827AEBFD6D54A9D659257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62AE5ED1B012933F1D24A6095C294B58 /* libPods-SampleUIRotateView.a */,
+				A514A25DF051C1C5EBD6AF5D6D6C7268 /* libUIRotateView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3948B49503F3AEE9F6F1E6B7F999F4D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F85BC4E4DBAE025BBD3ABA5C0DF53AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64F8B5A71F0B72839DB0EA9B82DC64C /* UIRotateView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F74359051093864D9DAFE59CC305AB4 /* UIRotateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DEDE525DF22986C6BFBBF241EE5644 /* Build configuration list for PBXNativeTarget "UIRotateView" */;
+			buildPhases = (
+				6F85BC4E4DBAE025BBD3ABA5C0DF53AD /* Headers */,
+				7B1713D87D471034603F68BFF82FABA0 /* Sources */,
+				62C0F24F6A8418ED1BCCFF0256FF0AC8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIRotateView;
+			productName = UIRotateView;
+			productReference = A514A25DF051C1C5EBD6AF5D6D6C7268 /* libUIRotateView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AE6966E31DF2008A9F16763DB838E8F7 /* Pods-SampleUIRotateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70832DEB9331033D406FD948A4E67323 /* Build configuration list for PBXNativeTarget "Pods-SampleUIRotateView" */;
+			buildPhases = (
+				3948B49503F3AEE9F6F1E6B7F999F4D7 /* Headers */,
+				83DBD1940B57E499ABAA8F75BC0AB14B /* Sources */,
+				8AE4667A1A24B4806358B249C73BE59D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED3A35A823C92BE611FF561BF899705 /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleUIRotateView";
+			productName = "Pods-SampleUIRotateView";
+			productReference = 62AE5ED1B012933F1D24A6095C294B58 /* libPods-SampleUIRotateView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BAD5A94BC56827AEBFD6D54A9D659257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE6966E31DF2008A9F16763DB838E8F7 /* Pods-SampleUIRotateView */,
+				0F74359051093864D9DAFE59CC305AB4 /* UIRotateView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B1713D87D471034603F68BFF82FABA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B128F8679759CDFD12548061451045 /* UIRotateView-dummy.m in Sources */,
+				E6E64526E41D6B5A1C5B3E13605BCFF4 /* UIRotateView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DBD1940B57E499ABAA8F75BC0AB14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CA5F424294248A2C2FEE0E3425EBC7 /* Pods-SampleUIRotateView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ED3A35A823C92BE611FF561BF899705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIRotateView;
+			target = 0F74359051093864D9DAFE59CC305AB4 /* UIRotateView */;
+			targetProxy = C8E60C7584C57A37C6BF41CA6809836B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A2C14C66D0FCF3D3D2D18BF9C10BFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153826A42C05E37F3F71811F0BD40E03 /* Pods-SampleUIRotateView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2215AC3B778BDD7FCF00BA652A8934D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5ACF37299077EE2F57AA8A6875EB0E3 /* Pods-SampleUIRotateView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3D2C6E8FF7C079F09F9DFD36554E989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B449BE33B5BC2047D2D9DD4912763782 /* UIRotateView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UIRotateView/UIRotateView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UIRotateView;
+				PRODUCT_NAME = UIRotateView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB04E9C6B6C45771B3069D96961EB694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B449BE33B5BC2047D2D9DD4912763782 /* UIRotateView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UIRotateView/UIRotateView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UIRotateView;
+				PRODUCT_NAME = UIRotateView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
+				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DEDE525DF22986C6BFBBF241EE5644 /* Build configuration list for PBXNativeTarget "UIRotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D2C6E8FF7C079F09F9DFD36554E989 /* Debug */,
+				BB04E9C6B6C45771B3069D96961EB694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70832DEB9331033D406FD948A4E67323 /* Build configuration list for PBXNativeTarget "Pods-SampleUIRotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2C14C66D0FCF3D3D2D18BF9C10BFD6 /* Debug */,
+				2215AC3B778BDD7FCF00BA652A8934D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

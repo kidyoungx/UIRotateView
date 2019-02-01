@@ -13,9 +13,12 @@
 		A7A4C4CD2204419800FBDFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A4C4CC2204419800FBDFBF /* Assets.xcassets */; };
 		A7A4C4D02204419800FBDFBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A4C4CE2204419800FBDFBF /* LaunchScreen.storyboard */; };
 		A7A4C4D32204419800FBDFBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A4C4D22204419800FBDFBF /* main.m */; };
+		BB89965E52CE1F14867C2980 /* libPods-SampleUIRotateView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 317EE9A8DA39868C7CB35FAA /* libPods-SampleUIRotateView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		317EE9A8DA39868C7CB35FAA /* libPods-SampleUIRotateView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleUIRotateView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE9AFFEFF955613B69B83A /* Pods-SampleUIRotateView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleUIRotateView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleUIRotateView/Pods-SampleUIRotateView.release.xcconfig"; sourceTree = "<group>"; };
 		A7A4C4C02204419700FBDFBF /* SampleUIRotateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleUIRotateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A4C4C32204419700FBDFBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7A4C4C42204419700FBDFBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		A7A4C4CF2204419800FBDFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7A4C4D12204419800FBDFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7A4C4D22204419800FBDFBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6CB84EDD5367BD0A1EE0EF9 /* Pods-SampleUIRotateView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleUIRotateView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleUIRotateView/Pods-SampleUIRotateView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB89965E52CE1F14867C2980 /* libPods-SampleUIRotateView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		307D45B4CF63933688BE3B0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6CB84EDD5367BD0A1EE0EF9 /* Pods-SampleUIRotateView.debug.xcconfig */,
+				81CE9AFFEFF955613B69B83A /* Pods-SampleUIRotateView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4199AD0E08C96661B0033788 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				317EE9A8DA39868C7CB35FAA /* libPods-SampleUIRotateView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A7A4C4B72204419700FBDFBF = {
 			isa = PBXGroup;
 			children = (
 				A7A4C4C22204419700FBDFBF /* SampleUIRotateView */,
 				A7A4C4C12204419700FBDFBF /* Products */,
+				307D45B4CF63933688BE3B0D /* Pods */,
+				4199AD0E08C96661B0033788 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7A4C4D62204419800FBDFBF /* Build configuration list for PBXNativeTarget "SampleUIRotateView" */;
 			buildPhases = (
+				241C4CDC7323B5AC2D71B09D /* [CP] Check Pods Manifest.lock */,
 				A7A4C4BC2204419700FBDFBF /* Sources */,
 				A7A4C4BD2204419700FBDFBF /* Frameworks */,
 				A7A4C4BE2204419700FBDFBF /* Resources */,
@@ -135,6 +160,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		241C4CDC7323B5AC2D71B09D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleUIRotateView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7A4C4BC2204419700FBDFBF /* Sources */ = {
@@ -283,6 +333,7 @@
 		};
 		A7A4C4D72204419800FBDFBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CB84EDD5367BD0A1EE0EF9 /* Pods-SampleUIRotateView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +350,7 @@
 		};
 		A7A4C4D82204419800FBDFBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81CE9AFFEFF955613B69B83A /* Pods-SampleUIRotateView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
